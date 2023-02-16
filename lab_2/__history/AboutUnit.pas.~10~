@@ -46,7 +46,7 @@ end;
 procedure TAboutForm.UserInput__smallClick(Sender: TObject);
 begin
 btn__close.Height := 30;
-btn__close.Width := 80;
+btn__close.Width := 150;
 end;
 
 end.

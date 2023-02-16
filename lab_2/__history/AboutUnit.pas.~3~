@@ -17,8 +17,6 @@ type
     UserInput__big: TMenuItem;
     UserInput__small: TMenuItem;
     procedure btn__closeClick(Sender: TObject);
-    procedure UserInput__bigClick(Sender: TObject);
-    procedure UserInput__smallClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -35,18 +33,6 @@ implementation
 procedure TAboutForm.btn__closeClick(Sender: TObject);
 begin
 Close;
-end;
-
-procedure TAboutForm.UserInput__bigClick(Sender: TObject);
-begin
-btn__close.Height := 80;
-btn__close.Width := 150;
-end;
-
-procedure TAboutForm.UserInput__smallClick(Sender: TObject);
-begin
-btn__close.Height := 30;
-btn__close.Width := 80;
 end;
 
 end.

@@ -5,7 +5,6 @@ object NewForm: TNewForm
   ClientHeight = 441
   ClientWidth = 624
   Color = clBtnFace
-  CustomTitleBar.CaptionAlignment = taCenter
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -12
