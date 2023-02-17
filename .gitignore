@@ -1,2 +1,5 @@
-**/__history
-**/Win32
+__history/
+
+Win32/
+
+ModelSupport_Project1/
