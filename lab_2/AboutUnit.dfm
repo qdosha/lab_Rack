@@ -2,7 +2,7 @@ object AboutForm: TAboutForm
   Left = 0
   Top = 0
   Caption = #1054' '#1087#1088#1086#1075#1088#1072#1084#1084#1077
-  ClientHeight = 561
+  ClientHeight = 562
   ClientWidth = 946
   Color = clGray
   CustomTitleBar.CaptionAlignment = taCenter
@@ -15,10 +15,12 @@ object AboutForm: TAboutForm
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
+  PopupMenu = UserInput
+  PopupMode = pmAuto
   TextHeight = 15
   object Titel: TLabel
-    Left = 257
-    Top = 234
+    Left = 352
+    Top = 240
     Width = 165
     Height = 34
     Caption = #1051#1077#1086#1085#1086#1074' '#1057'.'#1053'. '
@@ -32,8 +34,8 @@ object AboutForm: TAboutForm
     ParentFont = False
   end
   object Group: TLabel
-    Left = 420
-    Top = 248
+    Left = 508
+    Top = 254
     Width = 53
     Height = 16
     Caption = #1041#1055#1048'-221'
@@ -47,8 +49,8 @@ object AboutForm: TAboutForm
     ParentFont = False
   end
   object Lab: TLabel
-    Left = 280
-    Top = 274
+    Left = 352
+    Top = 280
     Width = 142
     Height = 15
     Caption = #1051#1072#1073#1086#1088#1072#1090#1086#1088#1085#1072#1103' '#1088#1072#1073#1086#1090#1072' '#8470'2'
@@ -62,8 +64,8 @@ object AboutForm: TAboutForm
     ParentFont = False
   end
   object Year: TLabel
-    Left = 428
-    Top = 274
+    Left = 500
+    Top = 280
     Width = 24
     Height = 15
     Caption = '2023'
@@ -77,8 +79,8 @@ object AboutForm: TAboutForm
     ParentFont = False
   end
   object btn__close: TButton
-    Left = 336
-    Top = 324
+    Left = 419
+    Top = 325
     Width = 75
     Height = 25
     Caption = #1047#1072#1082#1088#1099#1090#1100
@@ -86,8 +88,8 @@ object AboutForm: TAboutForm
     OnClick = btn__closeClick
   end
   object UserInput: TPopupMenu
-    Left = 24
-    Top = 24
+    Left = 444
+    Top = 323
     object UserInput__big: TMenuItem
       Caption = #1050#1088#1091#1087#1085#1072#1103
       OnClick = UserInput__bigClick

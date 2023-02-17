@@ -11,6 +11,7 @@ object NewForm: TNewForm
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
+  PopupMenu = PopupMenu1
   TextHeight = 15
   object btn__close: TButton
     Left = 272
@@ -20,5 +21,19 @@ object NewForm: TNewForm
     Caption = #1047#1072#1082#1088#1099#1090#1100
     TabOrder = 0
     OnClick = btn__closeClick
+  end
+  object PopupMenu1: TPopupMenu
+    Alignment = paCenter
+    TrackButton = tbLeftButton
+    Left = 296
+    Top = 216
+    object Btn__rus: TMenuItem
+      Caption = #1056#1091#1089#1089#1082#1080#1081
+      OnClick = Btn__rusClick
+    end
+    object Btn__eng: TMenuItem
+      Caption = 'English'
+      OnClick = Btn__engClick
+    end
   end
 end

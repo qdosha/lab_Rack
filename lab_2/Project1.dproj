@@ -98,9 +98,8 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="..\Lab_2.pas">
+        <DCCReference Include="Lab_2.pas">
             <Form>MainUnit</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="NewUnit.pas">
             <Form>NewForm</Form>
@@ -110,6 +109,7 @@
             <Form>AboutForm</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <None Include="ModelSupport_Project1\default.txaPackage"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
@@ -132,6 +132,12 @@
                 </Source>
             </Delphi.Personality>
             <Deployment Version="4">
+                <DeployFile LocalName="ModelSupport_Project1\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="Win32\Debug\Project1.exe" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Win32">
                         <RemoteName>Project1.exe</RemoteName>
@@ -965,6 +971,7 @@
                 <Platform value="Win32">True</Platform>
                 <Platform value="Win64">False</Platform>
             </Platforms>
+            <ModelSupport>True</ModelSupport>
         </BorlandProject>
         <ProjectFileVersion>12</ProjectFileVersion>
     </ProjectExtensions>

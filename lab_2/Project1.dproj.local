@@ -1,15 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.136,H:\TSTU\Rack\AboutUnit.dfm=H:\TSTU\Rack\Unit1.dfm</Transaction>
     <Transaction>1899.12.30 00:00:00.000.772,=H:\TSTU\Rack\Unit2.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.377,H:\TSTU\Rack\Unit2.pas=H:\TSTU\Rack\NewUnit.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.377,H:\TSTU\Rack\Unit2.dfm=H:\TSTU\Rack\NewUnit.dfm</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.853,C:\Users\stepa\Documents\Embarcadero\Studio\Projects\Project1.dproj=H:\TSTU\Rack\Project1.dproj</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.932,C:\Users\stepa\Documents\Embarcadero\Studio\Projects\Unit1.dfm=H:\TSTU\Lab_2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.377,H:\TSTU\Rack\NewUnit.dfm=H:\TSTU\Rack\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.136,H:\TSTU\Rack\AboutUnit.pas=H:\TSTU\Rack\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.416,=H:\TSTU\Git\lab_Rack\lab_2\ModelSupport_Project1\default.txaPackage</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.932,H:\TSTU\Lab_2.dfm=C:\Users\stepa\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
     <Transaction>1899.12.30 00:00:00.000.908,=C:\Users\stepa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.932,C:\Users\stepa\Documents\Embarcadero\Studio\Projects\Unit1.pas=H:\TSTU\Lab_2.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.136,H:\TSTU\Rack\Unit1.dfm=H:\TSTU\Rack\AboutUnit.dfm</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.136,H:\TSTU\Rack\Unit1.pas=H:\TSTU\Rack\AboutUnit.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.853,H:\TSTU\Rack\Project1.dproj=C:\Users\stepa\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.932,H:\TSTU\Lab_2.pas=C:\Users\stepa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.303,=H:\TSTU\Rack\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.377,H:\TSTU\Rack\NewUnit.pas=H:\TSTU\Rack\Unit2.pas</Transaction>
   </Transactions>
 </BorlandProject>
