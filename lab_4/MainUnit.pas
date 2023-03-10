@@ -5,7 +5,7 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls, Vcl.Menus,
-  Vcl.Buttons;
+  Vcl.Buttons, PopertUnit, AboutUnit;
 
 type
   TMainForm = class(TForm)
@@ -34,6 +34,7 @@ type
     Scrollbar__bottom_width: TLabel;
     Scrollbar_bottom__inputW: TEdit;
     Btn__okW: TBitBtn;
+    N1: TMenuItem;
     procedure MainMenu__exitClick(Sender: TObject);
     procedure Left__btn_closeClick(Sender: TObject);
     procedure workPanel__popup_blueClick(Sender: TObject);
@@ -44,6 +45,8 @@ type
     procedure Scrollbar_top__radioClick(Sender: TObject);
     procedure Btn__okHClick(Sender: TObject);
     procedure Btn__okWClick(Sender: TObject);
+    procedure N1Click(Sender: TObject);
+    procedure MainMenu__aboutClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -56,6 +59,7 @@ var
 implementation
 
 {$R *.dfm}
+
 
 procedure TMainForm.Btn__okHClick(Sender: TObject);
 begin
@@ -72,9 +76,19 @@ begin
 close;
 end;
 
+procedure TMainForm.MainMenu__aboutClick(Sender: TObject);
+begin
+AboutForm.show;
+end;
+
 procedure TMainForm.MainMenu__exitClick(Sender: TObject);
 begin
 close;
+end;
+
+procedure TMainForm.N1Click(Sender: TObject);
+begin
+PopertForm.show;
 end;
 
 procedure TMainForm.Scrollbar_top__radioClick(Sender: TObject);

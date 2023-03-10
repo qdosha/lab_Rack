@@ -106,6 +106,10 @@
             <Form>PopertForm</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="AboutUnit.pas">
+            <Form>AboutForm</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

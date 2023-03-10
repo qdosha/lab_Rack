@@ -20,7 +20,7 @@ object MainForm: TMainForm
     Height = 441
     Align = alLeft
     TabOrder = 0
-    ExplicitLeft = 32
+    ExplicitHeight = 440
     object Left__splitter: TSplitter
       Left = 1
       Top = 1
@@ -66,10 +66,8 @@ object MainForm: TMainForm
     Height = 441
     Align = alClient
     TabOrder = 1
-    ExplicitLeft = 400
-    ExplicitTop = 264
-    ExplicitWidth = 185
-    ExplicitHeight = 41
+    ExplicitWidth = 352
+    ExplicitHeight = 440
     object Right__splitter: TSplitter
       Left = 1
       Top = 151
@@ -85,8 +83,8 @@ object MainForm: TMainForm
       Height = 279
       Align = alClient
       TabOrder = 0
-      ExplicitLeft = 6
-      ExplicitTop = 151
+      ExplicitWidth = 350
+      ExplicitHeight = 278
       object Srollbar_bottom__height: TLabel
         Left = 72
         Top = 96
@@ -149,16 +147,17 @@ object MainForm: TMainForm
       HorzScrollBar.Size = 10
       VertScrollBar.Color = clBlue
       VertScrollBar.ParentColor = False
+      VertScrollBar.Position = 40
       VertScrollBar.Range = 999
       Align = alTop
       AutoScroll = False
       Ctl3D = True
       ParentCtl3D = False
       TabOrder = 1
-      ExplicitLeft = 0
+      ExplicitWidth = 350
       object Scrollbar_top__radio: TRadioGroup
         Left = 88
-        Top = 59
+        Top = 19
         Width = 209
         Height = 132
         Align = alCustom
@@ -180,9 +179,14 @@ object MainForm: TMainForm
     Left = 16
     object MainMenu__setting: TMenuItem
       Caption = #1053#1072#1089#1090#1088#1086#1081#1082#1072
+      object N1: TMenuItem
+        Caption = #1053#1072#1089#1090#1088#1086#1081#1082#1072' '#1087#1072#1085#1077#1083#1080
+        OnClick = N1Click
+      end
     end
     object MainMenu__about: TMenuItem
       Caption = #1054' '#1087#1088#1086#1075#1088#1072#1084#1084#1077
+      OnClick = MainMenu__aboutClick
     end
     object MainMenu__exit: TMenuItem
       Caption = #1042#1099#1093#1086#1076

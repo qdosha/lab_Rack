@@ -19,9 +19,8 @@ object PopertForm: TPopertForm
     Height = 50
     Align = alBottom
     TabOrder = 0
-    ExplicitLeft = 320
-    ExplicitTop = 104
-    ExplicitWidth = 185
+    ExplicitTop = 390
+    ExplicitWidth = 620
     object Btn__close: TBitBtn
       Left = 280
       Top = 8
@@ -37,9 +36,11 @@ object PopertForm: TPopertForm
     Top = 0
     Width = 624
     Height = 391
-    ActivePage = BorderStyle
+    ActivePage = BevelOuter
     Align = alClient
     TabOrder = 1
+    ExplicitWidth = 620
+    ExplicitHeight = 390
     object BorderStyle: TTabSheet
       Caption = 'BorderStyle'
       object RadioGroup1: TRadioGroup
@@ -55,8 +56,6 @@ object PopertForm: TPopertForm
           'bsSingle')
         TabOrder = 0
         OnClick = RadioGroup1Click
-        ExplicitLeft = 168
-        ExplicitTop = 24
       end
       object BitBtn1: TBitBtn
         Left = 276
@@ -71,10 +70,58 @@ object PopertForm: TPopertForm
     object BevelInner: TTabSheet
       Caption = 'BevelInner'
       ImageIndex = 1
+      object Bevel_group: TRadioGroup
+        Left = 208
+        Top = 120
+        Width = 185
+        Height = 105
+        Caption = #1043#1088#1091#1087#1087#1072' '#1087#1077#1088#1077#1082#1083#1102#1095#1072#1090#1077#1083#1077#1081
+        Columns = 2
+        Items.Strings = (
+          'bvLowered'
+          'bvNone'
+          'bvRaised'
+          'bvSpace')
+        TabOrder = 0
+        OnClick = Bevel_groupClick
+      end
+      object Bevel_accept: TBitBtn
+        Left = 256
+        Top = 231
+        Width = 75
+        Height = 25
+        Caption = #1055#1088#1080#1084#1077#1085#1080#1090#1100
+        TabOrder = 1
+        OnClick = Bevel_acceptClick
+      end
     end
     object BevelOuter: TTabSheet
       Caption = 'BevelOuter'
       ImageIndex = 2
+      object Outer_group: TRadioGroup
+        Left = 208
+        Top = 120
+        Width = 185
+        Height = 105
+        Caption = #1043#1088#1091#1087#1087#1072' '#1087#1077#1088#1077#1082#1083#1102#1095#1072#1090#1077#1083#1077#1081
+        Columns = 2
+        Items.Strings = (
+          'bvLowered'
+          'bvNone'
+          'bvRaised'
+          'bvSpace')
+        TabOrder = 0
+        OnClick = Outer_groupClick
+      end
+      object Outer_accept: TBitBtn
+        Left = 264
+        Top = 231
+        Width = 75
+        Height = 25
+        Caption = #1055#1088#1080#1084#1077#1085#1080#1090#1100
+        TabOrder = 1
+        OnClick = Outer_acceptClick
+      end
     end
   end
 end
