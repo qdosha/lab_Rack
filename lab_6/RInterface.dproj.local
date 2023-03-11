@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.337,C:\Users\Макс\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\anatomy\labs\lab_Rack\lab_6\RInterface.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.073,C:\Users\Макс\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\anatomy\labs\lab_Rack\lab_6\MainUnit.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.974,=D:\anatomy\labs\lab_Rack\lab_6\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.191,D:\anatomy\labs\lab_Rack\lab_6\Unit1.pas=D:\anatomy\labs\lab_Rack\lab_6\AboutUnit.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.014,D:\anatomy\labs\lab_Rack\lab_6\Unit2.dfm=D:\anatomy\labs\lab_Rack\lab_6\ViewUnit.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.707,=D:\anatomy\labs\lab_Rack\lab_6\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.014,D:\anatomy\labs\lab_Rack\lab_6\Unit2.pas=D:\anatomy\labs\lab_Rack\lab_6\ViewUnit.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.191,D:\anatomy\labs\lab_Rack\lab_6\Unit1.dfm=D:\anatomy\labs\lab_Rack\lab_6\AboutUnit.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.275,=C:\Users\Макс\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.073,C:\Users\Макс\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\anatomy\labs\lab_Rack\lab_6\MainUnit.pas</Transaction>
+  </Transactions>
+</BorlandProject>
