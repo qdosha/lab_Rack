@@ -50,6 +50,14 @@ type
     Type__label: TLabel;
     TypeColor__list: TComboBox;
     TypeColor__btn: TBitBtn;
+    Chamfer__TypeGroup: TRadioGroup;
+    TypeGroup__accept: TBitBtn;
+    Chamfer__StyleGroup: TRadioGroup;
+    StyleGroup__accept: TBitBtn;
+    Size__titel_w: TLabel;
+    Size__track_w: TTrackBar;
+    Size__titel_h: TLabel;
+    Size__track_h: TTrackBar;
     procedure Figure__groupClick(Sender: TObject);
     procedure Figure__acceptClick(Sender: TObject);
     procedure Fill__groupClick(Sender: TObject);
@@ -60,6 +68,12 @@ type
     procedure Type__btnClick(Sender: TObject);
     procedure TypeColor__listChange(Sender: TObject);
     procedure TypeColor__btnClick(Sender: TObject);
+    procedure Chamfer__TypeGroupClick(Sender: TObject);
+    procedure TypeGroup__acceptClick(Sender: TObject);
+    procedure Chamfer__StyleGroupClick(Sender: TObject);
+    procedure StyleGroup__acceptClick(Sender: TObject);
+    procedure Size__track_wChange(Sender: TObject);
+    procedure Size__track_hChange(Sender: TObject);
   private
     { Private declarations }
   public
@@ -73,6 +87,8 @@ var
   user__color: TColor;
   user__type: TPenStyle;
   user__color_type: TColor;
+  user__chamfer_type: TBevelShape;
+  user__chamfer_style: TBevelStyle;
 
 implementation
 
@@ -80,6 +96,27 @@ uses
   MainUnit;
 
 {$R *.dfm}
+
+procedure TPropertForm.Chamfer__StyleGroupClick(Sender: TObject);
+begin
+case Chamfer__StyleGroup.itemindex of
+0: user__chamfer_style := bsLowered;
+1: user__chamfer_style := bsRaised;
+end;
+end;
+
+procedure TPropertForm.Chamfer__TypeGroupClick(Sender: TObject);
+begin
+case Chamfer__TypeGroup.itemIndex of
+0: user__chamfer_type := bsBox;
+1: user__chamfer_type := bsFrame;
+2: user__chamfer_type := bsTopLine;
+3: user__chamfer_type := bsBottomLine;
+4: user__chamfer_type := bsLeftLine;
+5: user__chamfer_type := bsRightLine;
+6: user__chamfer_type := bsSpacer;
+end;
+end;
 
 procedure TPropertForm.Color__btnClick(Sender: TObject);
 begin
@@ -134,6 +171,16 @@ case Fill__group.ItemIndex of
 end;
 end;
 
+procedure TPropertForm.Size__track_wChange(Sender: TObject);
+begin
+MainForm.MainShape.width := Size__track_w.position;
+end;
+
+procedure TPropertForm.StyleGroup__acceptClick(Sender: TObject);
+begin
+MainForm.MainBevel.style := user__chamfer_style;
+end;
+
 procedure TPropertForm.Type__btnClick(Sender: TObject);
 begin
 MainForm.MainShape.pen.style := user__type;
@@ -162,6 +209,16 @@ case TypeColor__list.ItemIndex of
 4: user__color_type := clGreen;
 5: user__color_type := clYellow;
 end;
+end;
+
+procedure TPropertForm.TypeGroup__acceptClick(Sender: TObject);
+begin
+MainForm.MainBevel.shape := user__chamfer_type;
+end;
+
+procedure TPropertForm.Size__track_hChange(Sender: TObject);
+begin
+MainForm.MainShape.height := Size__track_h.position;
 end;
 
 procedure TPropertForm.TypeColor__btnClick(Sender: TObject);

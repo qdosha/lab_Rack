@@ -1,12 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899.12.30 00:00:00.000.297,C:\Users\Макс\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\anatomy\labs\lab_Rack\lab_8\MainUnit.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.425,C:\Users\Макс\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\anatomy\labs\lab_Rack\lab_8\Graphic.dproj</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.727,D:\anatomy\labs\lab_Rack\lab_8\Unit1.dfm=D:\anatomy\labs\lab_Rack\lab_8\PropertUnit.dfm</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.407,=C:\Users\Макс\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.297,C:\Users\Макс\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\anatomy\labs\lab_Rack\lab_8\MainUnit.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.727,D:\anatomy\labs\lab_Rack\lab_8\PropertUnit.pas=D:\anatomy\labs\lab_Rack\lab_8\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.727,D:\anatomy\labs\lab_Rack\lab_8\PropertUnit.dfm=D:\anatomy\labs\lab_Rack\lab_8\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.297,D:\anatomy\labs\lab_Rack\lab_8\MainUnit.pas=C:\Users\Макс\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.297,D:\anatomy\labs\lab_Rack\lab_8\MainUnit.dfm=C:\Users\Макс\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.425,D:\anatomy\labs\lab_Rack\lab_8\Graphic.dproj=C:\Users\Макс\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
     <Transaction>1899.12.30 00:00:00.000.136,=D:\anatomy\labs\lab_Rack\lab_8\Unit1.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.727,D:\anatomy\labs\lab_Rack\lab_8\Unit1.pas=D:\anatomy\labs\lab_Rack\lab_8\PropertUnit.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.407,=C:\Users\Макс\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023.03.13 14:04:41.124,=H:\TSTU\Git\lab_Rack\lab_8\Unit1.pas</Transaction>
+    <Transaction>2023.03.13 14:05:07.716,H:\TSTU\Git\lab_Rack\lab_8\AboutUnit.dfm=H:\TSTU\Git\lab_Rack\lab_8\Unit1.dfm</Transaction>
+    <Transaction>2023.03.13 14:05:07.716,H:\TSTU\Git\lab_Rack\lab_8\AboutUnit.pas=H:\TSTU\Git\lab_Rack\lab_8\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>

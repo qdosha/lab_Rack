@@ -31,8 +31,8 @@ object PropertForm: TPropertForm
     Caption = 'Bottom__cnt'
     ShowCaption = False
     TabOrder = 0
-    ExplicitTop = 200
-    ExplicitWidth = 320
+    ExplicitTop = 406
+    ExplicitWidth = 676
     object Bottom__btn: TBitBtn
       Left = 304
       Top = 6
@@ -48,11 +48,11 @@ object PropertForm: TPropertForm
     Top = 0
     Width = 680
     Height = 404
-    ActivePage = Line
+    ActivePage = Figure
     Align = alClient
     TabOrder = 1
-    ExplicitWidth = 320
-    ExplicitHeight = 197
+    ExplicitWidth = 676
+    ExplicitHeight = 403
     object Figure: TTabSheet
       Caption = #1060#1080#1075#1091#1088#1072
       object Shape__Rectangle: TShape
@@ -460,10 +460,105 @@ object PropertForm: TPropertForm
     object Chamfer: TTabSheet
       Caption = #1060#1072#1089#1082#1072
       ImageIndex = 3
+      object Chamfer__TypeGroup: TRadioGroup
+        Left = 40
+        Top = 0
+        Width = 209
+        Height = 217
+        Caption = #1058#1080#1087' '#1092#1072#1089#1082#1080
+        Items.Strings = (
+          #1058#1088#1105#1093#1084#1077#1088#1085#1099#1081' '#1087#1088#1103#1084#1086#1091#1075#1086#1083#1100#1085#1080#1082
+          #1056#1072#1084#1082#1072
+          #1051#1080#1085#1080#1103' '#1089#1074#1077#1088#1093#1091
+          #1051#1080#1085#1080#1103' '#1089#1085#1080#1079#1091
+          #1051#1080#1085#1080#1103' '#1089#1083#1077#1074#1072
+          #1051#1080#1085#1080#1103' '#1089#1087#1088#1072#1074#1072
+          #1053#1077#1074#1080#1076#1080#1084#1072#1103' '#1086#1073#1083#1072#1089#1090#1100)
+        TabOrder = 0
+        OnClick = Chamfer__TypeGroupClick
+      end
+      object TypeGroup__accept: TBitBtn
+        Left = 104
+        Top = 223
+        Width = 75
+        Height = 25
+        Caption = #1055#1088#1080#1084#1077#1085#1080#1090#1100
+        TabOrder = 1
+        OnClick = TypeGroup__acceptClick
+      end
+      object Chamfer__StyleGroup: TRadioGroup
+        Left = 440
+        Top = 0
+        Width = 185
+        Height = 217
+        Caption = #1057#1090#1080#1083#1100' '#1092#1072#1089#1082#1080
+        Items.Strings = (
+          #1060#1072#1089#1082#1072' '#1091#1090#1086#1087#1083#1077#1085#1072
+          #1060#1072#1089#1082#1072' '#1087#1088#1080#1087#1086#1076#1085#1103#1090#1072)
+        TabOrder = 2
+        OnClick = Chamfer__StyleGroupClick
+      end
+      object StyleGroup__accept: TBitBtn
+        Left = 496
+        Top = 223
+        Width = 75
+        Height = 25
+        Caption = #1055#1088#1080#1084#1077#1085#1080#1090#1100
+        TabOrder = 3
+        OnClick = StyleGroup__acceptClick
+      end
     end
     object Size: TTabSheet
       Caption = #1056#1072#1079#1084#1077#1088' '
       ImageIndex = 4
+      object Size__titel_w: TLabel
+        Left = 243
+        Top = 3
+        Width = 143
+        Height = 24
+        Caption = #1064#1080#1088#1080#1085#1072' '#1092#1080#1075#1091#1088#1099
+        Font.Charset = RUSSIAN_CHARSET
+        Font.Color = clWindowText
+        Font.Height = 24
+        Font.Name = 'JetBrains Mono'
+        Font.Style = []
+        ParentFont = False
+      end
+      object Size__titel_h: TLabel
+        Left = 243
+        Top = 107
+        Width = 143
+        Height = 24
+        Caption = #1042#1099#1089#1086#1090#1072' '#1092#1080#1075#1091#1088#1099
+        Font.Charset = RUSSIAN_CHARSET
+        Font.Color = clWindowText
+        Font.Height = 24
+        Font.Name = 'JetBrains Mono'
+        Font.Style = []
+        ParentFont = False
+      end
+      object Size__track_w: TTrackBar
+        Left = 243
+        Top = 33
+        Width = 150
+        Height = 45
+        Max = 350
+        Min = 50
+        Position = 350
+        TabOrder = 0
+        OnChange = Size__track_wChange
+      end
+      object Size__track_h: TTrackBar
+        Left = 243
+        Top = 152
+        Width = 150
+        Height = 45
+        Max = 300
+        Min = 50
+        Position = 300
+        TabOrder = 1
+        OnChange = Size__track_hChange
+      end
     end
   end
 end
