@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.333,C:\Users\stepa\Documents\Embarcadero\Studio\Projects\Unit1.dfm=H:\TSTU\Git\lab_Rack\lab_7\MainUnit.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.143,=H:\TSTU\Git\lab_Rack\lab_7\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.389,H:\TSTU\Git\lab_Rack\lab_7\Unit1.pas=H:\TSTU\Git\lab_Rack\lab_7\PersonUnit.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.456,=H:\TSTU\Git\lab_Rack\lab_7\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.907,H:\TSTU\Git\lab_Rack\lab_7\Unit1.pas=H:\TSTU\Git\lab_Rack\lab_7\PropertUnit.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.705,C:\Users\stepa\Documents\Embarcadero\Studio\Projects\Project1.dproj=H:\TSTU\Git\lab_Rack\lab_7\VvodText.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.732,=C:\Users\stepa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.907,H:\TSTU\Git\lab_Rack\lab_7\Unit1.dfm=H:\TSTU\Git\lab_Rack\lab_7\PropertUnit.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.389,H:\TSTU\Git\lab_Rack\lab_7\Unit1.dfm=H:\TSTU\Git\lab_Rack\lab_7\PersonUnit.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.333,C:\Users\stepa\Documents\Embarcadero\Studio\Projects\Unit1.pas=H:\TSTU\Git\lab_Rack\lab_7\MainUnit.pas</Transaction>
+    <Transaction>2023.03.15 12:40:13.368,=H:\TSTU\Git\lab_Rack\lab_7\Unit1.pas</Transaction>
+    <Transaction>2023.03.15 12:41:01.999,H:\TSTU\Git\lab_Rack\lab_7\AboutUnit.pas=H:\TSTU\Git\lab_Rack\lab_7\Unit1.pas</Transaction>
+    <Transaction>2023.03.15 12:41:01.999,H:\TSTU\Git\lab_Rack\lab_7\AboutUnit.dfm=H:\TSTU\Git\lab_Rack\lab_7\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
