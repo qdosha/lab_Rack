@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.263,D:\anatomy\labs\lab_Rack\lab_9\LoadUnit.pas=D:\anatomy\labs\lab_Rack\lab_9\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.481,C:\Users\Макс\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\anatomy\labs\lab_Rack\lab_9\MainUnit.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.567,D:\anatomy\labs\lab_Rack\lab_9\PropertUnit.pas=D:\anatomy\labs\lab_Rack\lab_9\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.152,C:\Users\Макс\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\anatomy\labs\lab_Rack\lab_9\Catalog.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.508,D:\anatomy\labs\lab_Rack\lab_9\AboutUnit.pas=D:\anatomy\labs\lab_Rack\lab_9\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.115,D:\anatomy\labs\lab_Rack\lab_9\SaveUnit.pas=D:\anatomy\labs\lab_Rack\lab_9\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.567,D:\anatomy\labs\lab_Rack\lab_9\PropertUnit.dfm=D:\anatomy\labs\lab_Rack\lab_9\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.115,D:\anatomy\labs\lab_Rack\lab_9\SaveUnit.dfm=D:\anatomy\labs\lab_Rack\lab_9\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.255,=D:\anatomy\labs\lab_Rack\lab_9\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.961,=D:\anatomy\labs\lab_Rack\lab_9\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.541,=D:\anatomy\labs\lab_Rack\lab_9\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.982,=D:\anatomy\labs\lab_Rack\lab_9\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.263,D:\anatomy\labs\lab_Rack\lab_9\LoadUnit.dfm=D:\anatomy\labs\lab_Rack\lab_9\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.508,D:\anatomy\labs\lab_Rack\lab_9\AboutUnit.dfm=D:\anatomy\labs\lab_Rack\lab_9\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.412,=C:\Users\Макс\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.481,C:\Users\Макс\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\anatomy\labs\lab_Rack\lab_9\MainUnit.pas</Transaction>
+  </Transactions>
+</BorlandProject>
