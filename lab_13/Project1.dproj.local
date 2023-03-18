@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.869,H:\TSTU\Git\lab_Rack\lab_13\Unit1.dfm=H:\TSTU\Git\lab_Rack\lab_13\MainUnit.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.869,H:\TSTU\Git\lab_Rack\lab_13\Unit1.pas=H:\TSTU\Git\lab_Rack\lab_13\MainUnit.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.403,C:\Users\stepa\Documents\Embarcadero\Studio\Projects\Project1.dproj=H:\TSTU\Git\lab_Rack\lab_13\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.190,C:\Users\stepa\Documents\Embarcadero\Studio\Projects\Unit1.dfm=H:\TSTU\Git\lab_Rack\lab_13\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.190,C:\Users\stepa\Documents\Embarcadero\Studio\Projects\Unit1.pas=H:\TSTU\Git\lab_Rack\lab_13\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.050,=C:\Users\stepa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023.03.18 23:18:27.697,=H:\TSTU\Git\lab_Rack\lab_13\Unit2.pas</Transaction>
+    <Transaction>2023.03.18 23:20:10.258,H:\TSTU\Git\lab_Rack\lab_13\AboutUnit.dfm=H:\TSTU\Git\lab_Rack\lab_13\Unit2.dfm</Transaction>
+    <Transaction>2023.03.18 23:20:10.258,H:\TSTU\Git\lab_Rack\lab_13\AboutUnit.pas=H:\TSTU\Git\lab_Rack\lab_13\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>
