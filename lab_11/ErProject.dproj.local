@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.247,C:\Users\Макс\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\anatomy\labs\lab_Rack\lab_11\MainUnit.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.362,D:\anatomy\labs\lab_Rack\lab_11\Unit1.dfm=D:\anatomy\labs\lab_Rack\lab_11\AboutUnit.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.202,C:\Users\Макс\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\anatomy\labs\lab_Rack\lab_11\ErProject.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.858,=C:\Users\Макс\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.247,C:\Users\Макс\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\anatomy\labs\lab_Rack\lab_11\MainUnit.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.912,=D:\anatomy\labs\lab_Rack\lab_11\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.362,D:\anatomy\labs\lab_Rack\lab_11\Unit1.pas=D:\anatomy\labs\lab_Rack\lab_11\AboutUnit.pas</Transaction>
+  </Transactions>
+</BorlandProject>
