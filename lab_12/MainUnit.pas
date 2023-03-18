@@ -56,10 +56,9 @@ procedure TMainForm.Btn__openClick(Sender: TObject);
 begin
 if OpenDialog.Execute then FName := OpenDialog.FileName;
 
-if Not OpenDialog.Execute then
-Exit;
+if OpenDialog.Execute = False then Exit;
 Try
-MediaPlayer1.FileName:=OpenDialog.FileName;
+MediaPlayer1.FileName:= OpenDialog.FileName;
 MediaPlayer1.Open;
 Except
 Application.MessageBox('Ошибка открытия файла', 'Ошибка!!!');

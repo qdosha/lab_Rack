@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.098,D:\anatomy\labs\lab_Rack\lab_12\AboutUnit.pas=D:\anatomy\labs\lab_Rack\lab_12\Unit1.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.696,=D:\anatomy\labs\lab_Rack\lab_12\Unit1.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.098,D:\anatomy\labs\lab_Rack\lab_12\Unit1.pas=D:\anatomy\labs\lab_Rack\lab_12\AboutUnit.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.991,C:\Users\Макс\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\anatomy\labs\lab_Rack\lab_12\MyMedia.dproj</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.609,C:\Users\Макс\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\anatomy\labs\lab_Rack\lab_12\MainUnit.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.609,C:\Users\Макс\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\anatomy\labs\lab_Rack\lab_12\MainUnit.dfm</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.098,D:\anatomy\labs\lab_Rack\lab_12\Unit1.dfm=D:\anatomy\labs\lab_Rack\lab_12\AboutUnit.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.991,D:\anatomy\labs\lab_Rack\lab_12\MyMedia.dproj=C:\Users\Макс\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.098,D:\anatomy\labs\lab_Rack\lab_12\AboutUnit.dfm=D:\anatomy\labs\lab_Rack\lab_12\Unit1.dfm</Transaction>
     <Transaction>1899.12.30 00:00:00.000.702,=C:\Users\Макс\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.609,D:\anatomy\labs\lab_Rack\lab_12\MainUnit.pas=C:\Users\Макс\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.609,D:\anatomy\labs\lab_Rack\lab_12\MainUnit.dfm=C:\Users\Макс\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
   </Transactions>
 </BorlandProject>

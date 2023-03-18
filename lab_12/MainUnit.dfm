@@ -33,6 +33,7 @@ object MainForm: TMainForm
     ParentBackground = False
     ShowCaption = False
     TabOrder = 0
+    ExplicitHeight = 599
     object Btn__open: TBitBtn
       Left = 47
       Top = 344
@@ -110,6 +111,8 @@ object MainForm: TMainForm
     Caption = 'TVPanel'
     ShowCaption = False
     TabOrder = 1
+    ExplicitWidth = 736
+    ExplicitHeight = 599
     object MediaPlayer1: TMediaPlayer
       Left = 240
       Top = 528
